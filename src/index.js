@@ -28,9 +28,9 @@ const Overlay = () => {
       <App />
       <div className={ready ? "" : "overlay"}>
         <div className={"start"}>Click to Explore</div>
-        <img className={ready ? "" : "controlsL"} src="./assets/Images/ControlsL.png" alt="Move: WASD	Jump: SPACE Run: SHIFT"></img>
-        <img className={ready ? "" : "controlsR"} src="./assets/Images/ControlsR.png" alt="Look: MOUSE"></img>
-        <img className={ready ? "" : "controlsTR"} src="./assets/Images/ControlsTR.png" alt="Toggle Performance: P Toggle Night Mode: N"></img>
+        <img className={ready ? "" : "controlsL"} src="/NickMayerGallery/assets/Images/ControlsL.png" alt="Move: WASD	Jump: SPACE Run: SHIFT"></img>
+        <img className={ready ? "" : "controlsR"} src="/NickMayerGallery/assets/Images/ControlsR.png" alt="Look: MOUSE"></img>
+        <img className={ready ? "" : "controlsTR"} src="/NickMayerGallery/assets/Images/ControlsTR.png" alt="Toggle Performance: P Toggle Night Mode: N"></img>
       </div>
       <div className="dot" 
       style={{ pointerEvents: ready ? "none" : "all" }} 
